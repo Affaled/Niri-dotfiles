@@ -13,8 +13,9 @@ include "custom/startup.kdl"
 
 // --- Visual ---
 include "custom/animations.kdl"
-include "custom/rules.kdl"
+include "custom/colors.kdl"
 include "custom/layout.kdl"
+include "custom/rules.kdl"
 
 // --- Configurações Gerais ---
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
