@@ -16,4 +16,5 @@ include "custom/animations.kdl"
 include "custom/rules.kdl"
 include "custom/layout.kdl"
 
+// --- Configurações Gerais ---
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
