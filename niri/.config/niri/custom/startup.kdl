@@ -3,3 +3,4 @@
 
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "waybar"
+spawn-sh-at-startup "swaybg -m fill -i $(find /home/$USER/Wallpaper/ -maxdepth 1 -name 'wallpaper.*' | head -n 1)"
