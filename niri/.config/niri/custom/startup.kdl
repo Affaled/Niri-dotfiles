@@ -3,4 +3,4 @@
 
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "waybar"
-spawn-at-startup "~/.config/niri/wallpaper.sh"
+spawn-at-startup "~/.config/niri/scripts/wallpaper.sh"
