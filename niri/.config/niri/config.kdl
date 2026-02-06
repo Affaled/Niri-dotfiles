@@ -3,25 +3,10 @@ include "modules/startup.kdl"
 include "modules/settings.kdl"
 include "modules/outputs.kdl"
 include "modules/layout.kdl"
-
-hotkey-overlay {
-}
+include "modules/animations.kdl"
+include "modules/rules.kdl"
 
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
-
-animations {
-}
-
-window-rule {
-
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
-}
-
-window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
-}
 
 binds {
 
