@@ -3,11 +3,7 @@
 
 layout {
     focus-ring {
-        active-color "{{colors.primary.default.hex}}"
-        inactive-color "{{colors.surface_container_highest.default.hex}}"
-    }
-    border {
-        active-color "{{colors.primary.default.hex}}"
-        inactive-color "{{colors.surface_container_highest.default.hex}}"
+        active-color "{{colors.outline.default.hex_stripped}}"
+        inactive-color "{{colors.outline_variant.default.hex_stripped}}"
     }
 }

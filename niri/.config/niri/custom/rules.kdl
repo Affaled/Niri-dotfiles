@@ -7,15 +7,30 @@ window-rule {
 }
 
 window-rule {
-    open-maximized true
+    open-maximized false
     geometry-corner-radius 18
     clip-to-geometry true
 }
 
 window-rule {
+    match app-id="code"
+    match app-id="zen"
+    match app-id="firefox"
+    
+    open-maximized true
+}
+
+window-rule {
+    match app-id="code"
+    match app-id="kitty"
+
+    opacity 0.9
+}
+
+window-rule {
     match is-focused=false
 
-    opacity 0.95
+    opacity 0.85
 }
 
 environment {
@@ -24,3 +39,5 @@ environment {
     XDG_SESSION_TYPE "wayland"
     XDG_CURRENT_DESKTOP "niri"
 }
+
+prefer-no-csd
