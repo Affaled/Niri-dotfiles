@@ -9,7 +9,7 @@ layout {
     }
 
     focus-ring {
-        width 4
+        width 2
     }
 
     center-focused-column "never"
