@@ -1,0 +1,13 @@
+// █▀▀ █▀█ █░░ █▀█ █▀█ █▀
+// █▄▄ █▄█ █▄▄ █▄█ █▀▄ ▄█
+
+layout {
+    focus-ring {
+        active-color "#88d1ec"
+        inactive-color "#303638"
+    }
+    border {
+        active-color "#88d1ec"
+        inactive-color "#303638"
+    }
+}

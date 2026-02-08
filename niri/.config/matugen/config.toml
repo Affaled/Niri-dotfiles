@@ -1,0 +1,6 @@
+[config]
+reload_on_change = true
+
+[templates.niri]
+input_path = "/home/affaled/.config/matugen/templates/niri/colors.kdl"
+output_path = "/home/affaled/.config/niri/custom/colors.kdl"

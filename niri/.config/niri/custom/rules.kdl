@@ -7,8 +7,15 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
+    open-maximized true
+    geometry-corner-radius 18
+    clip-to-geometry true
+}
+
+window-rule {
+    match is-focused=false
+
+    opacity 0.95
 }
 
 environment {
